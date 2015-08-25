@@ -26,7 +26,7 @@
         padding-top: 0px;
     }
 
-    /* Are you kidding taking up useless empty space below buttons?! */
+    /* Are you kidding with the useless empty space below buttons?! */
     .views   {
         padding-bottom: 0px !important;
     }
@@ -44,12 +44,12 @@
         display: none;
     }
 
-    /* What a dangerous button to have! */
+    /* Mark all as read: What a dangerous button to have! */
     #ajaxmarkasread {
         display: none;
     }
 
-    /* disable sidebar */
+    /* disable right sidebar with the checklists */
     #f_subnav_i2[style] {
         display: none !important;;
     }
@@ -64,7 +64,7 @@
         display: none;
     }
 
-    /* External integration message container */
+    /* External integration (evernote, etc.) message container */
     #bcrumbad {
         float: right;
     }
@@ -104,29 +104,30 @@
         display: none;
     }
 
-    /* Upgrade popunder */
+    /* "Upgrade" popunder message */
     #upgrade_sites_alt {
         display: none !important;
     }
 
-    /* left navbar containing feed names */
+    /* width of left navbar containing feed names */
     td.c1x:nth-child(1), #c1outerwrap, #mainleftnavouter[style], #mainleftnavouter > div.jspContainer, #mainleftnavouter div.jspPane {
         width: 12em !important;
     }
 
     /* Right side area including "all","unread",etc. buttons above and the feed contents below*/
+    /* Increase width */
     .c2x {
         position: relative;
         left: -75px;
     }
 
-    /* Same area, when the feeds list is hidden */
+    /* Same area, when the feeds list is hidden - change so content doesn't go beyond left edge of screen*/
     .c1outerhide + .c2x {
         position: relative;
         left: 0px;
     }
 
-    /* Main feed area */
+    /* Main feed area (excluding button area) */
     #fixed_subnav_body {
         width: calc(100% + 75px);
     }
