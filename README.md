@@ -9,3 +9,5 @@ Other than changing widths and heights to save space, this also:
 
 * removes a few other redundant page elements that are present redundantly and again and again and repeatedly - like the various "Add sites" inputs (leaves a single "Add new site" button at the top left), and the umpteen "Share" buttons. 
 
+Available on userstyles.org [as Feedspot Clean](https://userstyles.org/styles/118032/feedspot-clean) (also has screenshots showing before/after of this style on feedspot). 
+
