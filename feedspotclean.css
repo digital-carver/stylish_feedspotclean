@@ -132,6 +132,20 @@
         width: calc(100% + 75px);
     }
 
+    /* Current feed's text content */
+    #current_node > div:nth-child(2) {
+        margin-left: 25px;
+    }
+
+    /* Current feed's title area */
+    #current_node div.ocn-meta {
+         text-align: center !important;
+    }
+
+    /* Sharing buttons in current feed */
+    #current_node .top-sb {
+        display: none;
+    }
 
 }
 
